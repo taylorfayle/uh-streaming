@@ -1,0 +1,29 @@
+site_name: UH Streaming Video
+
+theme_dir: 'mkdocs-material/material'
+
+pages:
+    - Home: index.md
+    - Screencasting Software: screencasting-software.md
+    - Streaming Platforms: streaming-platforms.md
+    - About: about.md
+
+markdown_extensions:
+  - admonition
+  - codehilite(guess_lang=false)
+  - toc(permalink=true)
+
+extra:
+  palette:
+    primary: 'red'
+    accent: 'blue'
+
+extra:
+  logo: 'images/play.png'
+
+extra:
+  feature:
+    tabs: false
+
+extra_css:
+  - 'stylesheets/extra.css'
