@@ -21,9 +21,5 @@ extra:
 extra:
   logo: 'images/play.png'
 
-extra:
-  feature:
-    tabs: false
-
 extra_css:
   - 'stylesheets/extra.css'
